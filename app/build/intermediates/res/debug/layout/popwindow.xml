@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/exitpop" >
+
+
+
+    <ImageButton
+        android:id="@+id/negative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/positive"
+        android:layout_marginLeft="109dp"
+        android:layout_toRightOf="@+id/positive"
+        android:background="#00000000"
+        android:clickable="true"
+        android:src="@drawable/exitbuttonchange" />
+
+        <ImageButton
+        android:id="@+id/positive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="99dp"
+        android:background="#00000000"
+        android:clickable="true"
+        android:src="@drawable/againbuttonchange" />
+        
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#00000000"
+        android:ems="10"
+        android:gravity="center"
+        android:text="测试"
+        android:textColor="@color/yellow"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout><!-- From: file:/Users/kee/AndroidStudioProjects/TDtest/app/src/main/res/layout/popwindow.xml -->
